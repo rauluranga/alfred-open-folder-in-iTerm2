@@ -1,0 +1,18 @@
+
+Alfred: Open folder in iTerm2 (nightly build) 
+==============================================
+
+Pushes the frontmost Finder window's directory to iTerm2's directory stack, or opens it in a new window,
+This Alfred Workflow only work with the **latest** version of iTerm2 (nightly build), check [iterm2-alfred-cd](https://github.com/zethraeus/iterm2-alfred-cd) for prior versions of iTerm2.
+
+
+Install
+=======
+
+* clone this repository.
+* import  the `Open folder in iTerm2 nightly build.alfredworkflow` file in to Alfred app.
+
+Usage
+=====
+
+Just type `cd` in Aldred's prompt.
