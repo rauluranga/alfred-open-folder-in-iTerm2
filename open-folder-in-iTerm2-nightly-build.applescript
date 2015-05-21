@@ -15,15 +15,15 @@ on alfred_script(q)
 		if application "iTerm" is running then
     			tell application "iTerm" 
 				activate
-				tell current session of last terminal window
-			   		write text "pushd \"" &amp; _cwd &amp; "\""
+				tell current session of last window
+			   		write text "pushd \"" & _cwd & "\""
 		       	end tell
 			end tell
 		else
 			tell application "iTerm" 
 				activate
-				tell current session of last terminal window
-			   		write text "cd \"" &amp; _cwd &amp; "\""
+				tell current session of last window
+			   		 write text "cd \"" & _cwd & "\""
 				end tell
 			end tell
 		end if
